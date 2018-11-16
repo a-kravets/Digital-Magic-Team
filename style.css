@@ -10,6 +10,7 @@ body {
 .banner {
 	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/DigitalMagicTeam_cover.jpg");
 	background-size: cover;
+	/*max-width: 100%; we can also use this one instead of cover */
 	padding: 10vw;
 	text-align: center;
 	color: white;
@@ -66,6 +67,7 @@ li {
 	text-shadow: none;
 	display: inline-flex;
 	margin-top: 25px;
+	text-align: center;
 }
 
 #banner-btn:hover {
