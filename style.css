@@ -4,6 +4,7 @@
 body {
 	color: #555;
 	font-family: 'Roboto', sans-serif;
+
 }
 
 .banner {
@@ -18,6 +19,9 @@ body {
 .container {
 	margin: 0 auto;
     max-width: 50em;
+    display: flex-block;
+    padding: 20px;
+    line-height: 1.5em;
 }
 
 header {
@@ -32,4 +36,8 @@ header {
 
 em {
 	box-shadow: inset 0px -10px #D23333;
+}
+
+li {
+	margin-top: 5px;
 }
