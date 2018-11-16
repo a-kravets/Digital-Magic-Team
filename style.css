@@ -80,3 +80,7 @@ li {
 	justify-content: center;
 	display: flex;
 }
+
+strong {
+	box-shadow: inset 0px -5px #e09191;
+}
