@@ -96,3 +96,29 @@ strong {
  	width: 55px;
  	height: 55px;
 }
+
+.card-i {
+	display: inline-grid;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.img-card {
+	max-width: 80vw;
+	max-height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+	.card-i {
+	display: grid;
+	justify-content: center;	
+}
+}
+
+h5 {
+	text-align: center;
+}
