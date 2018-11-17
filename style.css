@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
+
 body {
 	color: #555;
 	font-family: 'Montserrat', sans-serif;
@@ -97,6 +98,11 @@ strong {
  	height: 55px;
 }
 
+#my-badge:hover {
+	width: 65px;
+ 	height: 65px;
+}
+
 .card-i {
 	display: inline-grid;
 	align-items: center;
@@ -112,13 +118,17 @@ strong {
 	justify-content: center;
 }
 
-@media screen and (max-width: 750px) {
+h5 {
+	text-align: center;
+}
+
+.img-card:hover {
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 700px) {
 	.card-i {
 	display: grid;
 	justify-content: center;	
 }
-}
-
-h5 {
-	text-align: center;
 }
