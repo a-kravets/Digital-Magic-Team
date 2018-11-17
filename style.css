@@ -112,7 +112,7 @@ strong {
 	justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	.card-i {
 	display: grid;
 	justify-content: center;	
