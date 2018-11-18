@@ -126,9 +126,23 @@ h5 {
 	opacity: 0.5;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 710px) {
 	.card-i {
 	display: grid;
-	justify-content: center;	
-}
+	justify-content: center;
+		}	
+	header {
+	font-size: 2em;
+		}
+	#my-badge {
+	width: 48px;
+ 	height: 48px;
+		}
+	#banner-btn {
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	font-size: 1.3em;
+		}
+	#subheader {
+	font-size: 1em;
+		}
 }
