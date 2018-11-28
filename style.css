@@ -146,3 +146,8 @@ h5 {
 	font-size: 1em;
 		}
 }
+
+#badge-link {
+	text-decoration: none;
+	color: #D23333;
+}
